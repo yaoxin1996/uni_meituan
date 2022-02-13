@@ -3,14 +3,48 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "美团外卖"
 			}
-		}
+		},
+    {
+    	"path": "pages/my/my",
+    	"style": {
+    		"navigationBarTitleText": "我的"
+    	}
+    },
+    {
+    	"path": "pages/order/order",
+    	"style": {
+    		"navigationBarTitleText": "订单"
+    	}
+    }
 	],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"static/tabbar/home.png",
+        "selectedIconPath":"static/tabbar/home-a.png",
+        "text":"首页"
+      }, {
+        "pagePath":"pages/order/order",
+        "iconPath":"static/tabbar/survey.png",
+        "selectedIconPath":"static/tabbar/survey-a.png",
+        "text":"订单"
+      }, {
+        "pagePath":"pages/my/my",
+        "iconPath":"static/tabbar/user.png",
+        "selectedIconPath":"static/tabbar/user-a.png",
+        "text":"我的"
+      }
+    ],
+    "selectedColor":"#33312e",
+    "color":"#999797"
+  },
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTitleText": "外卖",
+		"navigationBarBackgroundColor": "#fff",
 		"backgroundColor": "#F8F8F8"
 	}
 }
